@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/***************************************/
+header {
+  background-image: url(../images/pexels-richard-taveira-426027508-17825341.jpg);
+  display: flex;
+  height: 50vh;
+  padding: 0 100px;
+  margin-bottom: 0px;
+}
+header h1 {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-family: bold;
+}
+header ul {
+  display: flex;
+  margin-top: 20px;
+  position: absolute;
+  right: 100px;
+}
+header li {
+  list-style: none;
+  display: flex;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+header hover {
+  color: rgb(240, 9, 190);
+  font-size: 20px;
+  text-decoration: underline;
+}
+header img {
+  margin-top: 190px;
+  margin-right: 180px;
+}
+header p {
+  margin-top: 150px;
+  right: 200px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+/*---about--*/
+#about {
+  height: 100vh;
+  text-align: center;
+  padding-top: 70px;
+  background-color: rgb(226, 201, 163);
+  color: white;
+}
+#about h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+#about img {
+  margin-left: 200px;
+  margin-top: 70px;
+}
+#about p {
+  font-size: 15px;
+  bottom: 80px;
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 200px;
+}
+
+#hero {
+  height: 100vh;
+  background-color: rgb(153, 151, 147);
+  padding-bottom: 80px;
+  margin-bottom: 10px;
+}
+#hero h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+#hero button {
+  background-color: white;
+  margin-top: 100px;
+  border-radius: 40px;
+}
+#hero button:hover {
+  color: rgb(33, 19, 73);
+  font-size: 50px;
+}
+#hero p {
+  color: white;
+}
+#hero .row {
+  margin-top: 80px;
+}
+
+.content {
+  height: 100vh;
+  margin: 50px;
+}
+.content h1 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(240, 9, 190);
+}
+.content h3 {
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.content #image1 {
+  padding-top: 90px;
+}
+.content #image3 {
+  padding-top: 90px;
+}
+
+footer {
+  height: 30vh;
+  margin-top: 0px;
+  background-color: rgb(226, 201, 163);
+  margin-bottom: 0px;
+}
+footer h3 {
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
+  margin-left: 100px;
+}
+footer p {
+  color: white;
+  margin-left: 100px;
+}
+footer .col-4 ul li a {
+  margin-left: 70px;
+}
+footer .col-4 ul li a {
+  color: white;
+}
+footer h4 {
+  background-color: rgb(226, 201, 163);
+  height: 10vh;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-size: 10px;
+}/*# sourceMappingURL=styles.css.map */
